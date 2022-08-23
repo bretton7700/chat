@@ -33,12 +33,11 @@
     <FormulateInput
       v-if="!hasActiveCampaign"
       name="message"
-      :options="{Business Intelligence: 'Business Intelligence', Ecommerce WebsitesBuilder: 'Ecommerce WebsitesBuilder', Managed Databases: 'Managed Databases', Omnichannel: 'Tuskeechat'}"
-      type="checkbox"
+      :options="{BusinessIntelligence:'Business Intelligence', EcommerceWebsite:'Ecommerce WebsitesBuilder', ManagedDatabases:'Managed Databases', Omnichannel:'Omnichannel'}"
+      type="radio"
       :label-class="context => labelClass(context)"
       :input-class="context => inputClass(context)"
       label="What Would you like??"
-      
       validation="required"
     />
 
