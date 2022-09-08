@@ -33,7 +33,7 @@
     <FormulateInput
       v-if="!hasActiveCampaign"
       name="message"
-      :options="{BusinessIntelligence:'Business Intelligence', EcommerceWebsite:'Ecommerce WebsitesBuilder', ManagedDatabases:'Managed Databases', Omnichannel:'Omnichannel'}"
+      :options="{BusinessIntelligence:'Business Intelligence', EcommerceWebsite:'Ecommerce WebsitesBuilder', ManagedDatabases:'Managed Databases', Omnichannel:'Omnichannel', Other:'Other'}"
       type="radio"
       :label-class="context => labelClass(context)"
       :input-class="context => inputClass(context)"
