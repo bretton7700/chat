@@ -1,7 +1,7 @@
 {
-  "name": "@chatwoot/chatwoot",
-  "version": "2.7.0",
-  "license": "MIT",
+  "name": "@tuskeechat/tuskeechat",
+  "version": "1.0.0",
+  "license": "Ndovucloud",
   "scripts": {
     "eslint": "eslint app/**/*.{js,vue}",
     "eslint:fix": "eslint app/**/*.{js,vue} --fix",
