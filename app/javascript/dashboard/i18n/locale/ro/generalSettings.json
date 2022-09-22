@@ -47,8 +47,8 @@
         "CUSTOM_EMAIL_DOMAIN_ENABLED": "Puteți primi e-mailuri în domeniul dvs. personalizat acum."
       }
     },
-    "UPDATE_CHATWOOT": "Este disponibilă o actualizare %{latestChatwootVersion} pentru Chatwoot. Vă rugăm să actualizați instanța.",
-    "LEARN_MORE": "Află mai mult"
+    "UPDATE_CHATWOOT": "",
+    "LEARN_MORE": ""
   },
   "FORMS": {
     "MULTISELECT": {
