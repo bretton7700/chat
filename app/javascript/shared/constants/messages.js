@@ -24,35 +24,36 @@ export const ALLOWED_FILE_TYPES =
   'application/vnd.openxmlformats-officedocument.presentationml.presentation, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,' +
   'application/vnd.openxmlformats-officedocument.wordprocessingml.document,';
 
-export const CSAT_RATINGS = [
-  {
-    key: 'disappointed',
-    emoji: '😞',
-    value: 1,
-    color: '#FDAD2A',
-  },
-  {
-    key: 'expressionless',
-    emoji: '😑',
-    value: 2,
-    color: '#FFC532',
-  },
-  {
-    key: 'neutral',
-    emoji: '😐',
-    value: 3,
-    color: '#FCEC56',
-  },
-  {
-    key: 'grinning',
-    emoji: '😀',
-    value: 4,
-    color: '#6FD86F',
-  },
-  {
-    key: 'smiling',
-    emoji: '😍',
-    value: 5,
-    color: '#44CE4B',
-  },
-];
+  export const CSAT_RATINGS = [
+    {
+      key: 'disappointed',
+      emoji: '1 😞',
+      value: 1,
+      color: '#FDAD2A',
+    },
+    {
+      key: 'expressionless',
+      emoji: '2 😑',
+      value: 2,
+      color: '#FFC532',
+    },
+    {
+      key: 'neutral',
+      emoji: '3 😐',
+      value: 3,
+      color: '#FCEC56',
+    },
+    {
+      key: 'grinning',
+      emoji: '4 😀',
+      value: 4,
+      color: '#6FD86F',
+    },
+    {
+      key: 'smiling',
+      emoji: '5 😍',
+      value: 5,
+      color: '#44CE4B',
+    },
+  ];
+  
